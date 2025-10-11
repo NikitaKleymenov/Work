@@ -6,3 +6,16 @@ int main() {
     prinf("%d", (int)C);
     return 0;
 }
+// 2. Дано целое число N (32 ≤ N ≤ 126). Вывести символ с кодом, равным N.
+#include <stdio.h>
+
+int main() {
+    int N;
+    scanf("%d", &N);
+    
+    if (N >= 32 && N <= 126) {
+        printf("%d %c", N, (char)N);
+    }
+    
+    return 0;
+}
