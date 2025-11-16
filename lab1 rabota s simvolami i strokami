@@ -1,8 +1,0 @@
-// 1. Дан символ C. Вывести его код (то есть номер в кодовой таблице).
-#include <stdio.h>
-int main() {
-    char C;
-    scanf("%c", &C);
-    prinf("%d", (int)C);
-    return 0;
-}
